@@ -1,0 +1,43 @@
+# Credentials and local-only configuration
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
+*.token
+*.keystore
+credentials*.json
+secrets*.json
+
+# Runtime output, conversations and state
+state/
+reports/
+logs/
+*.log
+*.sqlite*
+*.db
+
+# Python and build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+build/
+dist/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Local editor and OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

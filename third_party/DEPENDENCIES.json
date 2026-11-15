@@ -1,0 +1,427 @@
+{
+  "checked_date": "2026-11-15",
+  "target": "CPython 3.12 on macOS arm64",
+  "scope": "The selected local wheels were matched to official PyPI release metadata, inspected as ZIP data, and verified against every RECORD hash. This is provenance/structure verification, not a full source or native-binary security audit.",
+  "selected_wheel_count": 18,
+  "selected_record_entries_verified": 859,
+  "portable_lock": "requirements.lock",
+  "official_wheel_hash_count": 621,
+  "other_platforms": "Hashes are included from official PyPI metadata; their wheels were not downloaded, inspected or runtime-tested in this review.",
+  "wheels": [
+    {
+      "name": "blinker",
+      "version": "1.9.0",
+      "metadata_url": "https://pypi.org/pypi/blinker/1.9.0/json",
+      "filename": "blinker-1.9.0-py3-none-any.whl",
+      "bytes": 8458,
+      "sha256": "ba0efaa9080b619ff2f3459d1d500c57bddea4a6b424b60a91141db6fd2f08bc",
+      "requires_python": ">=3.9",
+      "record_entries_verified": 8,
+      "native_members": [],
+      "license": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "license_members_in_wheel": [
+        "blinker-1.9.0.dist-info/LICENSE.txt"
+      ],
+      "official_release_wheel_count": 1
+    },
+    {
+      "name": "certifi",
+      "version": "2026.10.23",
+      "metadata_url": "https://pypi.org/pypi/certifi/2026.10.23/json",
+      "filename": "certifi-2026.10.23-py3-none-any.whl",
+      "bytes": 135082,
+      "sha256": "e9b54de76e530bb6cf0ccd036787103acb58fd42ba930ea8bf948ddbaa2f61d1",
+      "requires_python": ">=3.7",
+      "record_entries_verified": 12,
+      "native_members": [],
+      "license": "MPL-2.0",
+      "license_members_in_wheel": [
+        "certifi-2026.10.23.dist-info/licenses/LICENSE"
+      ],
+      "official_release_wheel_count": 1
+    },
+    {
+      "name": "charset-normalizer",
+      "version": "3.5.2",
+      "metadata_url": "https://pypi.org/pypi/charset-normalizer/3.5.2/json",
+      "filename": "charset_normalizer-3.5.2-cp312-cp312-macosx_10_13_universal2.whl",
+      "bytes": 367780,
+      "sha256": "ed2a239c0ea213acc1908150a3037257083c7c083128f1a4cec2ec4b97dca491",
+      "requires_python": ">=3.7",
+      "record_entries_verified": 21,
+      "native_members": [
+        "charset_normalizer/cd.cpython-312-darwin.so",
+        "charset_normalizer/md.cpython-312-darwin.so"
+      ],
+      "license": "MIT",
+      "license_members_in_wheel": [
+        "charset_normalizer-3.5.2.dist-info/licenses/",
+        "charset_normalizer-3.5.2.dist-info/licenses/LICENSE"
+      ],
+      "official_release_wheel_count": 171
+    },
+    {
+      "name": "click",
+      "version": "8.5.1",
+      "metadata_url": "https://pypi.org/pypi/click/8.5.1/json",
+      "filename": "click-8.5.1-py3-none-any.whl",
+      "bytes": 126163,
+      "sha256": "8bb5376d2006950386f8c6427613334a2acadc5f559cb80e638d00b4df957e37",
+      "requires_python": ">=3.10",
+      "record_entries_verified": 22,
+      "native_members": [],
+      "license": "BSD-3-Clause",
+      "license_members_in_wheel": [
+        "click-8.5.1.dist-info/licenses/LICENSE.txt"
+      ],
+      "official_release_wheel_count": 1
+    },
+    {
+      "name": "duckduckgo-search",
+      "version": "8.1.1",
+      "metadata_url": "https://pypi.org/pypi/duckduckgo_search/8.1.1/json",
+      "filename": "duckduckgo_search-8.1.1-py3-none-any.whl",
+      "bytes": 18932,
+      "sha256": "f48adbb06626ee05918f7e0cef3a45639e9939805c4fc179e68c48a12f1b5062",
+      "requires_python": ">=3.9",
+      "record_entries_verified": 14,
+      "native_members": [],
+      "license": "MIT License",
+      "license_members_in_wheel": [
+        "duckduckgo_search-8.1.1.dist-info/licenses/LICENSE.md"
+      ],
+      "official_release_wheel_count": 1
+    },
+    {
+      "name": "flask",
+      "version": "3.1.3",
+      "metadata_url": "https://pypi.org/pypi/Flask/3.1.3/json",
+      "filename": "flask-3.1.3-py3-none-any.whl",
+      "bytes": 103424,
+      "sha256": "f4bcbefc124291925f1a26446da31a5178f9483862233b23c0c96a20701f670c",
+      "requires_python": ">=3.9",
+      "record_entries_verified": 31,
+      "native_members": [],
+      "license": "BSD-3-Clause",
+      "license_members_in_wheel": [
+        "flask-3.1.3.dist-info/licenses/LICENSE.txt"
+      ],
+      "official_release_wheel_count": 1
+    },
+    {
+      "name": "idna",
+      "version": "3.20",
+      "metadata_url": "https://pypi.org/pypi/idna/3.20/json",
+      "filename": "idna-3.20-py3-none-any.whl",
+      "bytes": 69583,
+      "sha256": "ab7ae7122974553370f0bdb919e1a960b2cd1bc1ef0276416d896db81c14582c",
+      "requires_python": ">=3.9",
+      "record_entries_verified": 16,
+      "native_members": [],
+      "license": "BSD-3-Clause",
+      "license_members_in_wheel": [
+        "idna-3.20.dist-info/licenses/LICENSE.md"
+      ],
+      "official_release_wheel_count": 1
+    },
+    {
+      "name": "itsdangerous",
+      "version": "2.2.0",
+      "metadata_url": "https://pypi.org/pypi/itsdangerous/2.2.0/json",
+      "filename": "itsdangerous-2.2.0-py3-none-any.whl",
+      "bytes": 16234,
+      "sha256": "c6242fc49e35958c8b15141343aa660db5fc54d4f13a1db01a3f5891b98700ef",
+      "requires_python": ">=3.8",
+      "record_entries_verified": 13,
+      "native_members": [],
+      "license": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "license_members_in_wheel": [
+        "itsdangerous-2.2.0.dist-info/LICENSE.txt"
+      ],
+      "official_release_wheel_count": 1
+    },
+    {
+      "name": "jinja2",
+      "version": "3.1.6",
+      "metadata_url": "https://pypi.org/pypi/Jinja2/3.1.6/json",
+      "filename": "jinja2-3.1.6-py3-none-any.whl",
+      "bytes": 134899,
+      "sha256": "85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67",
+      "requires_python": ">=3.7",
+      "record_entries_verified": 31,
+      "native_members": [],
+      "license": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "license_members_in_wheel": [
+        "jinja2-3.1.6.dist-info/licenses/LICENSE.txt"
+      ],
+      "official_release_wheel_count": 1
+    },
+    {
+      "name": "lxml",
+      "version": "6.1.3",
+      "metadata_url": "https://pypi.org/pypi/lxml/6.1.3/json",
+      "filename": "lxml-6.1.3-cp312-cp312-macosx_10_13_universal2.whl",
+      "bytes": 8602094,
+      "sha256": "0c0710ac085a157b593c38fbcacd950f15c4afa8e2057527185875ab302752bc",
+      "requires_python": ">=3.8",
+      "record_entries_verified": 174,
+      "native_members": [
+        "lxml/builder.cpython-312-darwin.so",
+        "lxml/sax.cpython-312-darwin.so",
+        "lxml/_elementpath.cpython-312-darwin.so",
+        "lxml/etree.cpython-312-darwin.so",
+        "lxml/objectify.cpython-312-darwin.so",
+        "lxml/html/diff.cpython-312-darwin.so",
+        "lxml/html/_difflib.cpython-312-darwin.so"
+      ],
+      "license": "BSD-3-Clause",
+      "license_members_in_wheel": [
+        "lxml-6.1.3.dist-info/licenses/",
+        "lxml-6.1.3.dist-info/licenses/LICENSE.txt",
+        "lxml-6.1.3.dist-info/licenses/LICENSES.txt"
+      ],
+      "official_release_wheel_count": 175
+    },
+    {
+      "name": "markupsafe",
+      "version": "3.0.4",
+      "metadata_url": "https://pypi.org/pypi/MarkupSafe/3.0.4/json",
+      "filename": "markupsafe-3.0.4-cp312-cp312-macosx_11_0_arm64.whl",
+      "bytes": 12050,
+      "sha256": "0930db9bdc62d22944e10b066448bb65dc9abe9112880c7cab8da54db4284d5f",
+      "requires_python": ">=3.9",
+      "record_entries_verified": 11,
+      "native_members": [
+        "markupsafe/_speedups.cpython-312-darwin.so"
+      ],
+      "license": "BSD-3-Clause",
+      "license_members_in_wheel": [
+        "markupsafe-3.0.4.dist-info/licenses/",
+        "markupsafe-3.0.4.dist-info/licenses/LICENSE.txt"
+      ],
+      "official_release_wheel_count": 150
+    },
+    {
+      "name": "pillow",
+      "version": "13.0.0",
+      "metadata_url": "https://pypi.org/pypi/pillow/13.0.0/json",
+      "filename": "pillow-13.0.0-cp312-cp312-macosx_11_0_arm64.whl",
+      "bytes": 4852329,
+      "sha256": "fc481f742ccda20e9ed760b8f978dff50f2a4e9bc253ac167fb0a05b0783ef52",
+      "requires_python": ">=3.11",
+      "record_entries_verified": 138,
+      "native_members": [
+        "PIL/_webp.cpython-312-darwin.so",
+        "PIL/_imagingcms.cpython-312-darwin.so",
+        "PIL/_imagingft.cpython-312-darwin.so",
+        "PIL/_imagingmath.cpython-312-darwin.so",
+        "PIL/_imaging.cpython-312-darwin.so",
+        "PIL/_imagingmorph.cpython-312-darwin.so",
+        "PIL/_imagingtk.cpython-312-darwin.so",
+        "PIL/_avif.cpython-312-darwin.so",
+        "PIL/.dylibs/libbrotlicommon.1.2.0.dylib",
+        "PIL/.dylibs/libbrotlidec.1.2.0.dylib",
+        "PIL/.dylibs/liblcms2.2.dylib",
+        "PIL/.dylibs/libpng16.16.dylib",
+        "PIL/.dylibs/libxcb.1.1.0.dylib",
+        "PIL/.dylibs/libjpeg.62.4.0.dylib",
+        "PIL/.dylibs/libfreetype.6.dylib",
+        "PIL/.dylibs/libharfbuzz.0.dylib",
+        "PIL/.dylibs/libsharpyuv.0.dylib",
+        "PIL/.dylibs/libopenjp2.2.5.4.dylib",
+        "PIL/.dylibs/libavif.16.4.2.dylib",
+        "PIL/.dylibs/libz.1.3.1.zlib-ng.dylib",
+        "PIL/.dylibs/libwebp.7.dylib",
+        "PIL/.dylibs/libXau.6.dylib",
+        "PIL/.dylibs/libwebpmux.3.dylib",
+        "PIL/.dylibs/libwebpdemux.2.dylib",
+        "PIL/.dylibs/liblzma.5.dylib",
+        "PIL/.dylibs/libtiff.6.dylib"
+      ],
+      "license": "MIT-CMU",
+      "license_members_in_wheel": [
+        "pillow-13.0.0.dist-info/licenses/",
+        "pillow-13.0.0.dist-info/licenses/LICENSE"
+      ],
+      "official_release_wheel_count": 82
+    },
+    {
+      "name": "primp",
+      "version": "2.0.1",
+      "metadata_url": "https://pypi.org/pypi/primp/2.0.1/json",
+      "filename": "primp-2.0.1-cp310-abi3-macosx_11_0_arm64.whl",
+      "bytes": 6020705,
+      "sha256": "ca21c764f17ba42dde38c29d6a1f01970d39fa5f4793b0fe702006bd71b7a16a",
+      "requires_python": ">=3.10",
+      "record_entries_verified": 8,
+      "native_members": [
+        "primp/primp.abi3.so"
+      ],
+      "license": "MIT License",
+      "license_members_in_wheel": [],
+      "official_release_wheel_count": 30
+    },
+    {
+      "name": "python-dotenv",
+      "version": "1.2.4",
+      "metadata_url": "https://pypi.org/pypi/python-dotenv/1.2.4/json",
+      "filename": "python_dotenv-1.2.4-py3-none-any.whl",
+      "bytes": 23266,
+      "sha256": "42269a8a5b3fd54ffa6f3d84b18abed50064717576b4ecf03dc4a55d8aa04fdc",
+      "requires_python": ">=3.10",
+      "record_entries_verified": 15,
+      "native_members": [],
+      "license": "BSD-3-Clause",
+      "license_members_in_wheel": [
+        "python_dotenv-1.2.4.dist-info/licenses/LICENSE"
+      ],
+      "official_release_wheel_count": 1
+    },
+    {
+      "name": "reportlab",
+      "version": "5.1.0",
+      "metadata_url": "https://pypi.org/pypi/reportlab/5.1.0/json",
+      "filename": "reportlab-5.1.0-py3-none-any.whl",
+      "bytes": 2018647,
+      "sha256": "59fdbaec5efe437095ad1d7292ec9a271c8ca2d3ec75e889c6e61400929b90df",
+      "requires_python": ">=3.9,<4",
+      "record_entries_verified": 214,
+      "native_members": [],
+      "license": "BSD license (see license.txt for details), Copyright (c) 2000-2025, ReportLab Inc.",
+      "license_members_in_wheel": [
+        "reportlab/license.txt",
+        "reportlab/fonts/DarkGarden-copying-gpl.txt",
+        "reportlab/fonts/DarkGarden-copying.txt",
+        "reportlab/fonts/bitstream-vera-license.txt",
+        "reportlab-5.1.0.dist-info/licenses/LICENSE"
+      ],
+      "official_release_wheel_count": 1
+    },
+    {
+      "name": "requests",
+      "version": "2.34.2",
+      "metadata_url": "https://pypi.org/pypi/requests/2.34.2/json",
+      "filename": "requests-2.34.2-py3-none-any.whl",
+      "bytes": 73075,
+      "sha256": "2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0",
+      "requires_python": ">=3.10",
+      "record_entries_verified": 26,
+      "native_members": [],
+      "license": "Apache-2.0",
+      "license_members_in_wheel": [
+        "requests-2.34.2.dist-info/licenses/LICENSE",
+        "requests-2.34.2.dist-info/licenses/NOTICE"
+      ],
+      "official_release_wheel_count": 1
+    },
+    {
+      "name": "urllib3",
+      "version": "2.8.0",
+      "metadata_url": "https://pypi.org/pypi/urllib3/2.8.0/json",
+      "filename": "urllib3-2.8.0-py3-none-any.whl",
+      "bytes": 135717,
+      "sha256": "0cf3cae568d36aa9576b28dfb35f11328f1cb974ca7647d9475ebb86c75ac6e3",
+      "requires_python": ">=3.10",
+      "record_entries_verified": 42,
+      "native_members": [],
+      "license": "MIT",
+      "license_members_in_wheel": [
+        "urllib3-2.8.0.dist-info/licenses/LICENSE.txt"
+      ],
+      "official_release_wheel_count": 1
+    },
+    {
+      "name": "werkzeug",
+      "version": "3.1.9",
+      "metadata_url": "https://pypi.org/pypi/Werkzeug/3.1.9/json",
+      "filename": "werkzeug-3.1.9-py3-none-any.whl",
+      "bytes": 228700,
+      "sha256": "6392e50c78460ba618e5b21f08a71f59c99ce99cdc6cf6e3dd7e6ccca8754fab",
+      "requires_python": ">=3.9",
+      "record_entries_verified": 63,
+      "native_members": [],
+      "license": "BSD-3-Clause",
+      "license_members_in_wheel": [
+        "werkzeug/debug/shared/ICON_LICENSE.md",
+        "werkzeug-3.1.9.dist-info/licenses/LICENSE.txt"
+      ],
+      "official_release_wheel_count": 1
+    }
+  ],
+  "retained_notices": [
+    {
+      "path": "third_party/licenses/reportlab-5.1.0-LICENSE.txt",
+      "component": "reportlab",
+      "version": "5.1.0",
+      "source_wheel": "reportlab-5.1.0-py3-none-any.whl",
+      "source_wheel_sha256": "59fdbaec5efe437095ad1d7292ec9a271c8ca2d3ec75e889c6e61400929b90df",
+      "member": "reportlab-5.1.0.dist-info/licenses/LICENSE",
+      "sha256": "ef831761646313921375fc2cb888e8eeaf7da213d0b92852c10c42f3a0b4d138",
+      "bytes": 1707
+    },
+    {
+      "path": "third_party/licenses/requests-2.34.2-LICENSE.txt",
+      "component": "requests",
+      "version": "2.34.2",
+      "source_wheel": "requests-2.34.2-py3-none-any.whl",
+      "source_wheel_sha256": "2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0",
+      "member": "requests-2.34.2.dist-info/licenses/LICENSE",
+      "sha256": "09e8a9bcec8067104652c168685ab0931e7868f9c8284b66f5ae6edae5f1130b",
+      "bytes": 10142
+    },
+    {
+      "path": "third_party/licenses/requests-2.34.2-NOTICE.txt",
+      "component": "requests",
+      "version": "2.34.2",
+      "source_wheel": "requests-2.34.2-py3-none-any.whl",
+      "source_wheel_sha256": "2a0d60c172f83ac6ab31e4554906c0f3b3588d37b5cb939b1c061f4907e278e0",
+      "member": "requests-2.34.2.dist-info/licenses/NOTICE",
+      "sha256": "f5110972dedad2b4e9d314518daf3b7d72d6e02e499acd802181de6f74571dcc",
+      "bytes": 38
+    },
+    {
+      "path": "third_party/licenses/python-dotenv-1.2.4-LICENSE.txt",
+      "component": "python-dotenv",
+      "version": "1.2.4",
+      "source_wheel": "python_dotenv-1.2.4-py3-none-any.whl",
+      "source_wheel_sha256": "42269a8a5b3fd54ffa6f3d84b18abed50064717576b4ecf03dc4a55d8aa04fdc",
+      "member": "python_dotenv-1.2.4.dist-info/licenses/LICENSE",
+      "sha256": "80619b7049f08c81683ad0e01f08f257a840652dd71ee83146d36658c7d2c2b9",
+      "bytes": 1556
+    },
+    {
+      "path": "third_party/licenses/duckduckgo-search-8.1.1-LICENSE.txt",
+      "component": "duckduckgo-search",
+      "version": "8.1.1",
+      "source_wheel": "duckduckgo_search-8.1.1-py3-none-any.whl",
+      "source_wheel_sha256": "f48adbb06626ee05918f7e0cef3a45639e9939805c4fc179e68c48a12f1b5062",
+      "member": "duckduckgo_search-8.1.1.dist-info/licenses/LICENSE.md",
+      "sha256": "767a763769d3c3dcd2b8947e4bdc57f04151f7ea4adbc0bf13e052c77e600427",
+      "bytes": 1063
+    },
+    {
+      "path": "third_party/licenses/flask-3.1.3-LICENSE.txt",
+      "component": "flask",
+      "version": "3.1.3",
+      "source_wheel": "flask-3.1.3-py3-none-any.whl",
+      "source_wheel_sha256": "f4bcbefc124291925f1a26446da31a5178f9483862233b23c0c96a20701f670c",
+      "member": "flask-3.1.3.dist-info/licenses/LICENSE.txt",
+      "sha256": "489a8e1108509ed98a37bb983e11e0f7e1d31f0bd8f99a79c8448e7ff37d07ea",
+      "bytes": 1475
+    },
+    {
+      "path": "third_party/licenses/primp-2.0.1-LICENSE.txt",
+      "component": "primp",
+      "version": "2.0.1",
+      "url": "https://raw.githubusercontent.com/deedy5/primp/v2.0.1/LICENSE",
+      "sha256": "64f0fdb426abd21f75b48e2ff93b9976b8c374bab3538af33d3c6d3f7c7efae7",
+      "bytes": 1063
+    }
+  ]
+}
