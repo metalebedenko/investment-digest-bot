@@ -1,5 +1,7 @@
 # Investment Digest Bot
 
+[По-русски](README.ru.md)
+
 A small Python prototype for turning web research into a readable PDF digest and, on an explicit live run, delivering it to Telegram. The report and local control panel are in Russian.
 
 The experiment brings together a search provider, an analysis model, an optional editorial model and a repeatable document layout. Its value is the integration: a single path from a topic to a document, with local settings and a record of successfully sent issues. It does not establish the accuracy or profitability of model-generated investment ideas.
@@ -21,7 +23,7 @@ python run_bot.py --demo
 
 On Windows, activate with `.venv\Scripts\activate` and use `python` for the same commands. The generated PDF is under `reports/`.
 
-`--demo` uses explicitly synthetic examples, bypasses saved settings and history, and never calls search, LLMs or Telegram. Every PDF page is labelled **DEMO / SYNTHETIC DATA**. This mode can be run with networking disabled.
+`--demo` uses explicitly synthetic examples, bypasses saved settings and history, and never calls search, LLMs or Telegram. Every PDF page is labelled **DEMO / SYNTHETIC DATA**. This mode can be run with networking disabled. The CLI rejects `--test-tg` together with either `--demo` or `--pdf-only`, before sending a connectivity message.
 
 ## What is implemented
 

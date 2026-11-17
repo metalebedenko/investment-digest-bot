@@ -58,6 +58,8 @@ def parse_args(argv=None):
     args = parser.parse_args(argv)
     if args.demo and args.test_tg:
         parser.error("--demo cannot be combined with --test-tg")
+    if args.pdf_only and args.test_tg:
+        parser.error("--pdf-only cannot be combined with --test-tg")
     try:
         validate_count(args.count, allow_auto=True)
     except ValueError:
