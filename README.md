@@ -10,6 +10,10 @@ The experiment brings together a search provider, an analysis model, an optional
 
 [Open the seven-page synthetic example](docs/demo-digest.pdf). All figures are demonstration data.
 
+### Why PDF generation and delivery are separate
+
+I separated PDF generation from Telegram delivery. PDF-only mode lets you read the finished issue. The bot records an issue as sent only after Telegram accepts it. The demo uses fictional data, so you can explore the result without API keys or paid requests.
+
 ## Try the offline demo
 
 Python **3.12** is the tested environment. No account, API key, model download or Telegram chat is required for the demo.
