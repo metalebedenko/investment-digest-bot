@@ -2,9 +2,9 @@
 
 [По-русски](README.ru.md)
 
-A small Python prototype for turning web research into a readable PDF digest and, on an explicit live run, delivering it to Telegram. The report and local control panel are in Russian.
+This Python prototype finds material on investment ideas and compiles it into a PDF. It can also send an issue to Telegram. The report and local control panel are in Russian.
 
-The experiment brings together a search provider, an analysis model, an optional editorial model and a repeatable document layout. Its value is the integration: a single path from a topic to a document, with local settings and a record of successfully sent issues. It does not establish the accuracy or profitability of model-generated investment ideas.
+A search provider finds sources, a model analyses them and an optional editor model revises the draft. The bot assembles the PDF and keeps a record of successful deliveries. The accuracy and profitability of model-generated investment ideas have not been established.
 
 ![A synthetic idea card from the demo PDF](docs/demo-preview.png)
 
@@ -12,7 +12,7 @@ The experiment brings together a search provider, an analysis model, an optional
 
 ### Why PDF generation and delivery are separate
 
-I separated PDF generation from Telegram delivery. PDF-only mode lets you read the finished issue. The bot records an issue as sent only after Telegram accepts it. The demo uses fictional data, so you can explore the result without API keys or paid requests.
+In PDF-only mode, the bot produces an issue without sending it to Telegram, so you can read it first. When you use delivery mode, the bot adds an issue to the sent history only after Telegram accepts the file.
 
 ## Try the offline demo
 
